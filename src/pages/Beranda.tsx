@@ -1,7 +1,3 @@
-import React from "react";
-// Link dihapus karena tidak digunakan di dalam komponen ini
-// Jika nanti butuh navigasi antar halaman, baru tambahkan lagi di sini
-
 export default function Beranda() {
   const faqItems = [
     { title: "Apa itu INVOFEST?", description: "Invofest (Informatics Vocational Festival) adalah festival tahunan yang diakan oleh program studi sarjana terapan teknik informatika Universitas Harkat Negeri, yang bertujuan untuk menginspirasi dan memberdayakan generasi muda Indonesia dalam menghadapi era digital." },
