@@ -1,10 +1,9 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Header: React.FC = () => {
-  const navigate = useNavigate();
-  const token = localStorage.getItem("token");
-
+  // Menghapus navigate dan token karena tidak digunakan agar tidak error saat deploy
+  
   const activeStyle = "text-[#7B1D3F] font-bold";
   const defaultStyle = "text-slate-600 hover:text-[#7B1D3F]";
 
@@ -50,7 +49,7 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="flex items-center gap-3">
-            {/* 🔥 Navigasi User - Sekarang SELALU ke /login */}
+            {/* Navigasi User - Langsung menuju ke /login */}
             <NavLink 
               to="/login"
               className={({ isActive }) => 

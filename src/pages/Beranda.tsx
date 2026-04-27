@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import React from "react";
+// Link dihapus karena tidak digunakan di dalam komponen ini
+// Jika nanti butuh navigasi antar halaman, baru tambahkan lagi di sini
 
 export default function Beranda() {
   const faqItems = [
