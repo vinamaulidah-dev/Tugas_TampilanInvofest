@@ -49,7 +49,6 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="flex items-center gap-3">
-            {/* Navigasi User - Langsung menuju ke /login */}
             <NavLink 
               to="/login"
               className={({ isActive }) => 
